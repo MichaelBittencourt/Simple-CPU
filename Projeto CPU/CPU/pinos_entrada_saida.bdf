@@ -1,0 +1,283 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+//#pragma file_not_in_maxplusii_format
+(header "graphic" (version "1.3"))
+(symbol
+	(rect 336 56 688 328)
+	(text "pinos_entrada_saida" (rect 340 5 352 105)(font "Arial" )(vertical))
+	(text "inst" (rect 4 8 16 25)(font "Arial" )(vertical))
+	(port
+		(pt 320 0)
+		(input)
+		(text "clock_e" (rect 0 0 37 12)(font "Arial" ))
+		(text "clock_e" (rect 313 21 325 58)(font "Arial" )(vertical))
+		(line (pt 320 0)(pt 320 16)(line_width 1))
+	)
+	(port
+		(pt 304 0)
+		(input)
+		(text "escreve_R1_e" (rect 0 0 71 12)(font "Arial" ))
+		(text "escreve_R1_e" (rect 297 21 309 92)(font "Arial" )(vertical))
+		(line (pt 304 0)(pt 304 16)(line_width 1))
+	)
+	(port
+		(pt 288 0)
+		(input)
+		(text "escreve_R2_e" (rect 0 0 71 12)(font "Arial" ))
+		(text "escreve_R2_e" (rect 281 21 293 92)(font "Arial" )(vertical))
+		(line (pt 288 0)(pt 288 16)(line_width 1))
+	)
+	(port
+		(pt 272 0)
+		(input)
+		(text "escreve_R3_e" (rect 0 0 71 12)(font "Arial" ))
+		(text "escreve_R3_e" (rect 265 21 277 92)(font "Arial" )(vertical))
+		(line (pt 272 0)(pt 272 16)(line_width 1))
+	)
+	(port
+		(pt 256 0)
+		(input)
+		(text "escreve_R4_e" (rect 0 0 71 12)(font "Arial" ))
+		(text "escreve_R4_e" (rect 249 21 261 92)(font "Arial" )(vertical))
+		(line (pt 256 0)(pt 256 16)(line_width 1))
+	)
+	(port
+		(pt 240 0)
+		(input)
+		(text "escreve_R5_e" (rect 0 0 71 12)(font "Arial" ))
+		(text "escreve_R5_e" (rect 233 21 245 92)(font "Arial" )(vertical))
+		(line (pt 240 0)(pt 240 16)(line_width 1))
+	)
+	(port
+		(pt 224 0)
+		(input)
+		(text "escreve_R6_e" (rect 0 0 71 12)(font "Arial" ))
+		(text "escreve_R6_e" (rect 217 21 229 92)(font "Arial" )(vertical))
+		(line (pt 224 0)(pt 224 16)(line_width 1))
+	)
+	(port
+		(pt 208 0)
+		(input)
+		(text "escreve_RDM_e" (rect 0 0 82 12)(font "Arial" ))
+		(text "escreve_RDM_e" (rect 201 21 213 103)(font "Arial" )(vertical))
+		(line (pt 208 0)(pt 208 16)(line_width 1))
+	)
+	(port
+		(pt 192 0)
+		(input)
+		(text "escreve_REM_e" (rect 0 0 81 12)(font "Arial" ))
+		(text "escreve_REM_e" (rect 185 21 197 102)(font "Arial" )(vertical))
+		(line (pt 192 0)(pt 192 16)(line_width 1))
+	)
+	(port
+		(pt 176 0)
+		(input)
+		(text "seleciona_mux1_e[1..0]" (rect 0 0 116 12)(font "Arial" ))
+		(text "seleciona_mux1_e[1..0]" (rect 169 21 181 137)(font "Arial" )(vertical))
+		(line (pt 176 0)(pt 176 16)(line_width 3))
+	)
+	(port
+		(pt 160 0)
+		(input)
+		(text "seleciona_mux2_e[1..0]" (rect 0 0 116 12)(font "Arial" ))
+		(text "seleciona_mux2_e[1..0]" (rect 153 21 165 137)(font "Arial" )(vertical))
+		(line (pt 160 0)(pt 160 16)(line_width 3))
+	)
+	(port
+		(pt 144 0)
+		(input)
+		(text "seleciona_mux3_e" (rect 0 0 90 12)(font "Arial" ))
+		(text "seleciona_mux3_e" (rect 137 21 149 111)(font "Arial" )(vertical))
+		(line (pt 144 0)(pt 144 16)(line_width 1))
+	)
+	(port
+		(pt 128 0)
+		(input)
+		(text "seleciona_mux4_e" (rect 0 0 90 12)(font "Arial" ))
+		(text "seleciona_mux4_e" (rect 121 21 133 111)(font "Arial" )(vertical))
+		(line (pt 128 0)(pt 128 16)(line_width 1))
+	)
+	(port
+		(pt 112 0)
+		(input)
+		(text "seleciona_mux5_e" (rect 0 0 90 12)(font "Arial" ))
+		(text "seleciona_mux5_e" (rect 105 21 117 111)(font "Arial" )(vertical))
+		(line (pt 112 0)(pt 112 16)(line_width 1))
+	)
+	(port
+		(pt 96 0)
+		(input)
+		(text "RD_e" (rect 0 0 28 12)(font "Arial" ))
+		(text "RD_e" (rect 89 21 101 49)(font "Arial" )(vertical))
+		(line (pt 96 0)(pt 96 16)(line_width 1))
+	)
+	(port
+		(pt 80 0)
+		(input)
+		(text "OE_e" (rect 0 0 27 12)(font "Arial" ))
+		(text "OE_e" (rect 73 21 85 48)(font "Arial" )(vertical))
+		(line (pt 80 0)(pt 80 16)(line_width 1))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "CS_e" (rect 0 0 27 12)(font "Arial" ))
+		(text "CS_e" (rect 57 21 69 48)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16)(line_width 1))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "codigo_e[2..0]" (rect 0 0 69 12)(font "Arial" ))
+		(text "codigo_e[2..0]" (rect 41 21 53 90)(font "Arial" )(vertical))
+		(line (pt 48 0)(pt 48 16)(line_width 3))
+	)
+	(port
+		(pt 320 272)
+		(output)
+		(text "clock" (rect 0 0 25 12)(font "Arial" ))
+		(text "clock" (rect 313 226 325 251)(font "Arial" )(vertical))
+		(line (pt 320 272)(pt 320 256)(line_width 1))
+	)
+	(port
+		(pt 304 272)
+		(output)
+		(text "escreve_R1" (rect 0 0 60 12)(font "Arial" ))
+		(text "escreve_R1" (rect 297 191 309 251)(font "Arial" )(vertical))
+		(line (pt 304 272)(pt 304 256)(line_width 1))
+	)
+	(port
+		(pt 288 272)
+		(output)
+		(text "escreve_R2" (rect 0 0 60 12)(font "Arial" ))
+		(text "escreve_R2" (rect 281 191 293 251)(font "Arial" )(vertical))
+		(line (pt 288 272)(pt 288 256)(line_width 1))
+	)
+	(port
+		(pt 272 272)
+		(output)
+		(text "escreve_R3" (rect 0 0 60 12)(font "Arial" ))
+		(text "escreve_R3" (rect 265 191 277 251)(font "Arial" )(vertical))
+		(line (pt 272 272)(pt 272 256)(line_width 1))
+	)
+	(port
+		(pt 256 272)
+		(output)
+		(text "escreve_R4" (rect 0 0 60 12)(font "Arial" ))
+		(text "escreve_R4" (rect 249 191 261 251)(font "Arial" )(vertical))
+		(line (pt 256 272)(pt 256 256)(line_width 1))
+	)
+	(port
+		(pt 240 272)
+		(output)
+		(text "escreve_R5" (rect 0 0 60 12)(font "Arial" ))
+		(text "escreve_R5" (rect 233 191 245 251)(font "Arial" )(vertical))
+		(line (pt 240 272)(pt 240 256)(line_width 1))
+	)
+	(port
+		(pt 224 272)
+		(output)
+		(text "escreve_R6" (rect 0 0 60 12)(font "Arial" ))
+		(text "escreve_R6" (rect 217 191 229 251)(font "Arial" )(vertical))
+		(line (pt 224 272)(pt 224 256)(line_width 1))
+	)
+	(port
+		(pt 208 272)
+		(output)
+		(text "escreve_RDM" (rect 0 0 70 12)(font "Arial" ))
+		(text "escreve_RDM" (rect 201 181 213 251)(font "Arial" )(vertical))
+		(line (pt 208 272)(pt 208 256)(line_width 1))
+	)
+	(port
+		(pt 192 272)
+		(output)
+		(text "escreve_REM" (rect 0 0 69 12)(font "Arial" ))
+		(text "escreve_REM" (rect 185 182 197 251)(font "Arial" )(vertical))
+		(line (pt 192 272)(pt 192 256)(line_width 1))
+	)
+	(port
+		(pt 176 272)
+		(output)
+		(text "seleciona_mux1[1..0]" (rect 0 0 105 12)(font "Arial" ))
+		(text "seleciona_mux1[1..0]" (rect 169 146 181 251)(font "Arial" )(vertical))
+		(line (pt 176 272)(pt 176 256)(line_width 3))
+	)
+	(port
+		(pt 160 272)
+		(output)
+		(text "seleciona_mux2[1..0]" (rect 0 0 105 12)(font "Arial" ))
+		(text "seleciona_mux2[1..0]" (rect 153 146 165 251)(font "Arial" )(vertical))
+		(line (pt 160 272)(pt 160 256)(line_width 3))
+	)
+	(port
+		(pt 144 272)
+		(output)
+		(text "seleciona_mux3" (rect 0 0 79 12)(font "Arial" ))
+		(text "seleciona_mux3" (rect 137 172 149 251)(font "Arial" )(vertical))
+		(line (pt 144 272)(pt 144 256)(line_width 1))
+	)
+	(port
+		(pt 128 272)
+		(output)
+		(text "seleciona_mux4" (rect 0 0 79 12)(font "Arial" ))
+		(text "seleciona_mux4" (rect 121 172 133 251)(font "Arial" )(vertical))
+		(line (pt 128 272)(pt 128 256)(line_width 1))
+	)
+	(port
+		(pt 112 272)
+		(output)
+		(text "seleciona_mux5" (rect 0 0 79 12)(font "Arial" ))
+		(text "seleciona_mux5" (rect 105 172 117 251)(font "Arial" )(vertical))
+		(line (pt 112 272)(pt 112 256)(line_width 1))
+	)
+	(port
+		(pt 96 272)
+		(output)
+		(text "RD" (rect 0 0 16 12)(font "Arial" ))
+		(text "RD" (rect 89 235 101 251)(font "Arial" )(vertical))
+		(line (pt 96 272)(pt 96 256)(line_width 1))
+	)
+	(port
+		(pt 80 272)
+		(output)
+		(text "OE" (rect 0 0 15 12)(font "Arial" ))
+		(text "OE" (rect 73 236 85 251)(font "Arial" )(vertical))
+		(line (pt 80 272)(pt 80 256)(line_width 1))
+	)
+	(port
+		(pt 64 272)
+		(output)
+		(text "CS" (rect 0 0 15 12)(font "Arial" ))
+		(text "CS" (rect 57 236 69 251)(font "Arial" )(vertical))
+		(line (pt 64 272)(pt 64 256)(line_width 1))
+	)
+	(port
+		(pt 48 272)
+		(output)
+		(text "codigo[2..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "codigo[2..0]" (rect 41 194 53 251)(font "Arial" )(vertical))
+		(line (pt 48 272)(pt 48 256)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 336 256)(line_width 1))
+	)
+	(rotate270)
+)
